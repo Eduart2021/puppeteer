@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer')
 test('open chrome', async () =>{
  
     const browser = await puppeteer.launch({    // launch() start browser
-        headless: false,                        // chrome show "false", chrome hide "true"
+       // headless: false,                        // chrome show "false", chrome hide "true"
         slowMo:80                               // typing speed on web
     })
         

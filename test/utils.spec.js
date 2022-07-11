@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer')
 
 test('launch chromium', async () =>{
     const browser = await puppeteer.launch({ //object -> {}
-        headless: false,
+       // headless: false,
         slowMo: 60,
         //args:['--window-size=1080, 950']
     })

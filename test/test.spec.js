@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer')
 
 test('testing : ', async ()=>{
     const browser = await puppeteer.launch({
-        headless: false,
+       // headless: false,
         soloMo:50
     })
     const url = 'https://www.google.com/'
