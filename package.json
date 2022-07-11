@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack app.js --mode development --watch",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/Eduart2021/puppeteer/issues"
   },
-  "homepage": "https://github.com/Eduart2021/puppeteer#readme"
+  "homepage": "https://github.com/Eduart2021/puppeteer#readme",
+  "dependencies": {
+    "jest": "^28.1.2",
+    "puppeteer": "^15.3.2",
+    "webdriver": "^7.20.4",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
 }

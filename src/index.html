@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>e2e Testing</title>
+</head>
+
+<body>
+    <section class="control-panel">
+        <div class="input-container">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+        <div class="input-container">
+            <label for="age">Age</label>
+            <input type="number" id="age">
+        </div>
+        <button id="btnAddUser" class="button">Add User</button>
+    </section>
+    <hr>
+    <form action="/action_page.php">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br>
+      </form>
+      
+    <section class="user-output">
+        <ul class="user-list">
+            <li class="user-item">Elon (43 years old)</li>
+            <li class="user-item">Doni (14 years old)</li>
+        </ul>
+    </section>
+    <script src="./main.js"></script>
+</body>
+
+</html>
